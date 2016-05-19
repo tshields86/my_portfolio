@@ -15,8 +15,8 @@
   <body>
     <!-- fullscreen nav bar -->
     <div class="navbar-fixed">
-      <nav class="black" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center">TS</a>
+      <nav class="blur-black" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#index-banner" class="brand-logo center">TS</a>
           <ul class="left hide-on-med-and-down">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">My Skills</a></li>
@@ -26,7 +26,7 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
           <!-- mobile navbar -->
-          <ul id="nav-mobile" class="side-nav blur">
+          <ul id="nav-mobile" class="side-nav blur-grey">
             <li><a href="#about" class="waves-effect waves-light btn deep-orange accent-3">About</a></li>
             <li><a href="#skills" class="waves-effect waves-light btn deep-orange accent-3">My Skills</a></li>
             <li><a href="#portfolio" class="waves-effect waves-light btn deep-orange accent-3">Portfolio</a></li>
@@ -38,8 +38,7 @@
     </div>
 
     <!-- top jumbotron -->
-    <div class="grey lighten-3">
-      <div class="section no-pad-bot" id="index-banner">
+    <div class="grey lighten-3 section scrollspy no-pad-bot" id="index-banner">
         <div class="container">
           <br><br>
           <h1 class="header center deep-orange-text text-accent-3">Travis Shields</h1>
@@ -53,7 +52,6 @@
           </div>
           <br><br>
         </div>
-      </div>
     </div>
 
     <!-- highlight section -->
@@ -64,7 +62,7 @@
           <div class="col s12 m4 l4">
             <div class="icon-block">
               <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">group</i></h2>
-              <h5 class="center">User Experience Focused</h5>
+              <h5 class="center">highlight 1</h5>
               <p class="light">Tail turkey ball tip sirloin, alcatra meatloaf picanha drumstick beef shank cow shankle. Spare ribs chicken short ribs porchetta shoulder. Leberkas shank shoulder, cow sirloin ham ham hock drumstick beef ribs pork boudin.</p>
             </div>
           </div>
@@ -72,7 +70,7 @@
           <div class="col s12 m4 l4">
             <div class="icon-block">
               <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">flash_on</i></h2>
-              <h5 class="center">Speeds up development</h5>
+              <h5 class="center">highlight 2</h5>
               <p class="light">Bacon ipsum dolor amet sirloin picanha shoulder, spare ribs ground round bacon capicola doner. Turducken kielbasa ham hock frankfurter, ball tip t-bone beef tongue salami drumstick chicken pork chop boudin chuck.</p>
             </div>
           </div>
@@ -80,7 +78,7 @@
           <div class="col s12 m4 l4">
             <div class="icon-block">
               <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">settings</i></h2>
-              <h5 class="center">Easy to work with</h5>
+              <h5 class="center">highlight 3</h5>
               <p class="light">Salami jerky beef ribs capicola drumstick pork chop pastrami swine shankle biltong fatback. Filet mignon pig beef ribs cow. Doner swine pancetta cupim strip steak venison bacon.</p>
             </div>
           </div>
@@ -90,9 +88,9 @@
     </div>
 
     <!-- about -->
-    <div id="about" class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot" id="index-banner">
-        <div class="container white-text blur">
+    <div class="parallax-container valign-wrapper section scrollspy" id="about" >
+      <div class="section no-pad-bot">
+        <div class="container white-text blur-grey">
           <div class="row">
             <div class="col l12 s12 valign">
               <h5 class="center">Hello World!</h5>
@@ -109,120 +107,238 @@
 
     <!-- skills -->
     <div class="white section scrollspy" id="skills">
+      <div class="container center">
+        <h5>My Skills</h5>
+        <hr/><br/>
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <i class="fa fa-cubes fa-4x deep-orange-text text-accent-3"></i>
+            <h5>Powerful Frameworks</h5>
+            <p>I work with agile frameworks such as Node, Express, React, Angular, and Ruby on Rails.</p>
+          </div>
+          <div class="col s12 m6 l3">
+            <i class="fa fa-tachometer fa-4x deep-orange-text text-accent-3"></i>
+            <h5>Ready to Go</h5>
+            <p>I use Git/Github for version control and deploy with Heroku.</p>
+          </div>
+          <div class="col s12 m6 l3">
+            <i class="fa fa-database fa-4x deep-orange-text text-accent-3"></i>
+            <h5>Secure Storage</h5>
+            <p>I employ user authentication and maintain MongoDB, PostgreSLQ, and MySLQ databases.</p>
+          </div>
+          <div class="col s12 m6 l3">
+            <i class="fa fa-terminal fa-4x deep-orange-text text-accent-3"></i>
+            <h5>Up to Date</h5>
+            <p>I keep on my toes with cutting-edge languages such as HTML5, CSS3, JavaScript, and Ruby.</p>
+          </div>
+        </div>
+        <div class="row">
+          <img class="col s3 m1 offset-m2 l1 offset-l2 icon" src="img/svg/html5-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/css3-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/javascript-original.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/jquery-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/nodejs-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/code_icons/express.png">
+          <img class="col s3 m1 l1 icon" src="img/svg/react-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/angularjs-original.svg">
+        </div>
+        <div class="row">
+          <img class="col s3 m1 offset-m2 l1 offset-l2 icon" src="img/svg/mongodb-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/postgresql-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/ruby-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/rails-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/code_icons/rspec.png">
+          <img class="col s3 m1 l1 icon" src="img/svg/github-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/heroku-original-wordmark.svg">
+          <img class="col s3 m1 l1 icon" src="img/svg/wordpress-original.svg">
+        </div>
+      </div>
+    </div>
+      <!-- skills layout 6 -->
+    <!-- <div class="white section scrollspy" id="skills">
       <div class="container">
         <div class="row">
           <div class="col l12 s12">
             <h5 class="center">My Skills</h5>
             <hr/>
-            <p>I have experience in HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, Angular.js, React.js, Ruby, Ruby on Rails, MongoDB, PostgreSQL, Git/Github, Heroku, Sass, and Bootstrap.</p>
+            <p>I have experience in HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, Angular.js, MongoDB, PostgreSQL, Ruby, Rails, Git/Github, Heroku, Sass, and Bootstrap.</p>
             </div>
           </div>
           <div class="row">
-            <img class="col s6 m1 offset-m2 l1 offset-l2 icon" src="img/svg/html5-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/css3-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/javascript-original.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/jquery-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/nodejs-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/code_icons/express.png">
-            <img class="col s6 m1 l1 icon" src="img/svg/react-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/angularjs-original.svg">
+            <img class="col s3 m1 offset-m2 l1 offset-l2 icon" src="img/svg/html5-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/css3-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/javascript-original.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/jquery-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/nodejs-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/code_icons/express.png">
+            <img class="col s3 m1 l1 icon" src="img/svg/react-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/angularjs-original.svg">
           </div>
           <div class="row">
-            <img class="col s6 m1 offset-m2 l1 offset-l2 icon" src="img/svg/mongodb-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/postgresql-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/ruby-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/rails-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/code_icons/rspec.png">
-            <img class="col s6 m1 l1 icon" src="img/svg/heroku-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/github-original-wordmark.svg">
-            <img class="col s6 m1 l1 icon" src="img/svg/wordpress-original.svg">
-
+            <img class="col s3 m1 offset-m2 l1 offset-l2 icon" src="img/svg/mongodb-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/postgresql-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/ruby-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/rails-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/code_icons/rspec.png">
+            <img class="col s3 m1 l1 icon" src="img/svg/github-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/heroku-original-wordmark.svg">
+            <img class="col s3 m1 l1 icon" src="img/svg/wordpress-original.svg">
           </div>
         </div>
-      </div>
-
-      <!-- portfolio -->
-      <div class="grey lighten-3 section scrollspy" id="portfolio">
-        <div class="container">
-          <h5 class="center">My Work</h5>
-          <hr/>
-          <p>Hamburger chuck beef, boudin short loin short ribs spare ribs pork loin. Beef porchetta turkey pork chop strip steak landjaeger. Pork strip steak leberkas pastrami swine chicken drumstick boudin, biltong fatback short ribs bresaola corned beef. Kielbasa ball tip tri-tip bacon alcatra, filet mignon prosciutto pig tongue pork chop capicola frankfurter. Beef pancetta landjaeger capicola, drumstick shank short loin venison. Shoulder sirloin kielbasa meatball pastrami fatback shank jerky picanha tail beef. Cupim chicken capicola pastrami ball tip cow t-bone.</p>
-        </div>
-      </div>
-
-      <!-- contact -->
-      <div class="white section scrollspy" id="contact">
+        <br/>
         <div class="container center">
-          <div>
-            <h5>Let's Get In Touch!</h5>
-            <hr/>
-            <p>Feel free to contact me through any of the following:</p>
-          </div>
-          <div>
-            <i class="fa fa-phone fa-3x phone"></i>
-            <p>610-842-8162</p>
-          </div>
-          <div>
-            <i class="fa fa-envelope-o fa-3x email"></i>
-            <p><a href="mailto:travis.shields@gmail.com">travis.shields@gmail.com</a></p>
-          </div>
           <div class="row">
-            <a href="https://github.com/tshields86" target="_blank" style="margin-right: 5px;">
-                <i class="fa fa-github-square fa-3x contact"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/trshields" target="_blank" style="margin-right: 5px;">
-                <i class="fa fa-linkedin-square fa-3x contact"></i>
-            </a>
-            <a href="https://twitter.com/tshields86" target="_blank" style="margin-right: 5px;">
-                <i class="fa fa-twitter-square fa-3x contact"></i>
-            </a>
-            <a href="https://angel.co/travis-shields" target="_blank" style="margin-right: 5px;">
-                <i class="fa fa-angellist fa-3x contact"></i>
-            </a>
-            <a href="http://stackoverflow.com/users/6272401/tshields86" target="_blank" style="margin-right: 5px;">
-                <i class="fa fa-stack-overflow fa-3x contact"></i>
-            </a>
+            <div class="col s12 m3 l3">
+              <i class="fa fa-cubes fa-4x deep-orange-text text-accent-3"></i>
+              <h5>Powerful Frameworks</h5>
+              <p>I work with agile frameworks such as Node, Express, React, Angular, and Ruby on Rails.</p>
+            </div>
+            <div class="col s12 m3 l3">
+              <i class="fa fa-tachometer fa-4x deep-orange-text text-accent-3"></i>
+              <h5>Ready to Go</h5>
+              <p>I use Git/Github for version control and deploy with Heroku.</p>
+            </div>
+            <div class="col s12 m3 l3">
+              <i class="fa fa-database fa-4x deep-orange-text text-accent-3"></i>
+              <h5>Secure Storage</h5>
+              <p>I employ user authentication and maintain MongoDB, PostgreSLQ, and MySLQ databases.</p>
+            </div>
+            <div class="col s12 m3 l3">
+              <i class="fa fa-terminal fa-4x deep-orange-text text-accent-3"></i>
+              <h5>Up to Date</h5>
+              <p>I keep on my toes with cutting-edge languages such as HTML5, CSS3, JavaScript, and Ruby.</p>
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-    <footer class="page-footer black section scrollspy">
-      <!-- <div class="container white-text center">
+    <!-- portfolio -->
+    <div class="grey lighten-3 section scrollspy" id="portfolio">
+      <div class="container">
+        <h5 class="center">My Work</h5>
+        <hr/><br/><br/>
+
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title deep-orange-text text-accent-3">Project 1</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title deep-orange-text text-accent-3">Project 2</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title deep-orange-text text-accent-3">Project 3</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title deep-orange-text text-accent-3">Project 4</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="white section scrollspy" id="contact">
+      <div class="container center">
         <div>
           <h5>Let's Get In Touch!</h5>
           <hr/>
-          <p>Feel free to contact me through any of the following:</p>
+          <!-- <p>Feel free to contact me through any of the following:</p> -->
+          <p>Look over my resume, give me a call, or send an email.</p>
+        </div>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <i class="fa fa-file-text-o fa-3x resume"></i>
+            <p><a href="img/resume_example.pdf" download class="deep-orange-text text-accent-3">Resume</a></p>
+          </div>
+          <div class="col s12 m4 l4">
+            <i class="fa fa-phone fa-3x phone"></i>
+            <p>610-842-8162</p>
+          </div>
+          <div class="col s12 m4 l4">
+            <i class="fa fa-envelope-o fa-3x email"></i>
+            <p><a href="mailto:travis.shields@gmail.com" class="deep-orange-text text-accent-3">travis.shields@gmail.com</a></p>
+          </div>
         </div>
         <div>
-          <i class="fa fa-phone fa-3x phone"></i>
-          <p>610-842-8162</p>
-        </div>
-        <div>
-          <i class="fa fa-envelope-o fa-3x email"></i>
-          <p><a href="mailto:travis.shields@gmail.com">travis.shields@gmail.com</a></p>
+          <p>Or check me out here:</p>
         </div>
         <div class="row">
           <a href="https://github.com/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-github-square fa-3x contact"></i>
+              <i class="fa fa-github-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://www.linkedin.com/in/trshields" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-linkedin-square fa-3x contact"></i>
+              <i class="fa fa-linkedin-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://twitter.com/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-twitter-square fa-3x contact"></i>
+              <i class="fa fa-twitter-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://angel.co/travis-shields" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-angellist fa-3x contact"></i>
+              <i class="fa fa-angellist fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="http://stackoverflow.com/users/6272401/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-stack-overflow fa-3x contact"></i>
+              <i class="fa fa-stack-overflow fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
         </div>
+      </div>
+    </div>
 
-
-      </div> -->
+    <!-- <footer class="page-footer black section scrollspy"> -->
+    <footer class="blur-black section scrollspy">
       <div class="footer-copyright">
-        <div class="container">
+        <!-- <div class="container"> -->
+        <div class="container white-text">
         &copy;Copyright 2016 - <span class="deep-orange-text text-accent-3">Travis Shields</span>
         </div>
       </div>

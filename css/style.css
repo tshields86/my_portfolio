@@ -18,8 +18,11 @@ html {
   filter: blur(1.5px);
 }*/
 /* for putting a slightly blurry grey background behind text*/
-.blur {
-  background: rgba(70, 70, 70, 0.70)
+.blur-grey {
+  background: rgba(70, 70, 70, 0.7)
+}
+.blur-black {
+  background: rgba(0, 0, 0, 0.85)
 }
 
 .svg {

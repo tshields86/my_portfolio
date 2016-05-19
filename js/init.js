@@ -15,17 +15,23 @@
     });
 
 // animations
-    var animationIcon = 'animated flip';
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    var animationIcon = 'animated flip';
     $('.icon').on('mouseover', function (){
       $(this).addClass(animationIcon).one(animationEnd, function(){
         $(this).removeClass(animationIcon);
       });
     });
-    var animationName = 'animated wobble';
+    var animationResume = 'animated bounce';
+    $('.resume').on('mouseover', function (){
+      $(this).addClass(animationResume).one(animationEnd, function(){
+        $(this).removeClass(animationResume);
+      });
+    });
+    var animationPhone = 'animated wobble';
     $('.phone').on('mouseover', function (){
-      $(this).addClass(animationName).one(animationEnd, function(){
-        $(this).removeClass(animationName);
+      $(this).addClass(animationPhone).one(animationEnd, function(){
+        $(this).removeClass(animationPhone);
       });
     });
     var animationEmail = 'animated zoomOutRight';
