@@ -7,84 +7,79 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"> -->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/animate.min.css" type="text/css"/>
   </head>
   <body>
+    <!-- fullscreen nav bar -->
     <div class="navbar-fixed">
       <nav class="black" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center">TS</a>
-        <!-- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center teal-text text-lighten-1">TS</a> -->
           <ul class="left hide-on-med-and-down">
-            <li><a href="#">About</a></li>
-            <li><a href="#">My Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">My Skills</a></li>
           </ul>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#" class="waves-effect waves-light btn">About</a></li>
-            <li><a href="#" class="waves-effect waves-light btn">My Skills</a></li>
-            <li><a href="#" class="waves-effect waves-light btn">Portfolio</a></li>
-            <li><a href="#" class="waves-effect waves-light btn">Contact</a></li>
+          <!-- mobile navbar -->
+          <ul id="nav-mobile" class="side-nav blur">
+            <li><a href="#about" class="waves-effect waves-light btn deep-orange accent-3">About</a></li>
+            <li><a href="#skills" class="waves-effect waves-light btn deep-orange accent-3">My Skills</a></li>
+            <li><a href="#portfolio" class="waves-effect waves-light btn deep-orange accent-3">Portfolio</a></li>
+            <li><a href="#contact" class="waves-effect waves-light btn deep-orange accent-3">Contact</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
     </div>
+
+    <!-- top jumbotron -->
     <div class="grey lighten-3">
       <div class="section no-pad-bot" id="index-banner">
         <div class="container">
           <br><br>
-          <h1 class="header center teal-text text-lighten-1">Travis Shields</h1>
+          <h1 class="header center deep-orange-text text-accent-3">Travis Shields</h1>
           <div class="row">
             <div class="col l4 offset-l4 m4 offset-m4 s6 offset-s3">
-              <img class="responsive-img circle" src="/Users/travisshields/Desktop/Travis/Travis_pics/travis_face.jpg">
+              <img class="responsive-img circle z-depth-2" src="/Users/travisshields/Desktop/Travis/Travis_pics/travis_face.jpg">
             </div>
           </div>
-          <!-- <h1 class="header center teal-text text-lighten-1">Travis Shields</h1> -->
           <div class="row center">
             <h5 class="header col s12 light">Full-Stack Web Developer</h5>
           </div>
-          <!-- <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal">Get Started</a>
-          </div> -->
           <br><br>
         </div>
       </div>
     </div>
 
-    <!-- This will be used for my portfolio -->
-    <div class="white">
-    </div>
-
-
+    <!-- highlight section -->
     <div class="container">
       <div class="section">
-        <!--   Icon Section   -->
+        <!--   first   -->
         <div class="row">
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="center teal-text text-lighten-1"><i class="material-icons">group</i></h2>
+              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">group</i></h2>
               <h5 class="center">User Experience Focused</h5>
               <p class="light">Tail turkey ball tip sirloin, alcatra meatloaf picanha drumstick beef shank cow shankle. Spare ribs chicken short ribs porchetta shoulder. Leberkas shank shoulder, cow sirloin ham ham hock drumstick beef ribs pork boudin.</p>
             </div>
           </div>
-
+          <!--   second   -->
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="center teal-text text-lighten-1"><i class="material-icons">flash_on</i></h2>
+              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">flash_on</i></h2>
               <h5 class="center">Speeds up development</h5>
               <p class="light">Bacon ipsum dolor amet sirloin picanha shoulder, spare ribs ground round bacon capicola doner. Turducken kielbasa ham hock frankfurter, ball tip t-bone beef tongue salami drumstick chicken pork chop boudin chuck.</p>
             </div>
           </div>
-
+          <!--   third   -->
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="center teal-text text-lighten-1"><i class="material-icons">settings</i></h2>
+              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">settings</i></h2>
               <h5 class="center">Easy to work with</h5>
               <p class="light">Salami jerky beef ribs capicola drumstick pork chop pastrami swine shankle biltong fatback. Filet mignon pig beef ribs cow. Doner swine pancetta cupim strip steak venison bacon.</p>
             </div>
@@ -93,23 +88,27 @@
       </div>
       <br><br>
     </div>
-    <!-- This will be used for about -->
-    <div class="grey lighten-3">
-      <div class="container">
-        <div class="row">
-          <div class="col l12 s12">
-            <h5 class="center">Hello World!</h5>
-            <hr/>
-            <p>My name is Travis Shields. I am a full-stack developer based out of New York City. I went to the University of Pennsylvania and my background is in finance. Where I once had a knack for creating complex financial models, as a developer, I am now building dynamic web applications that are to me, more meaningful, and I couldn't be happier.
-              <br/>When I'm not working on a new app, you can often find me discovering new parts of the city, listening to live music or trying to find the best cup of coffee.
-            </p>
+
+    <!-- about -->
+    <div id="about" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container white-text blur">
+          <div class="row">
+            <div class="col l12 s12 valign">
+              <h5 class="center">Hello World!</h5>
+              <hr/>
+              <p class="white-text">My name is Travis Shields. I am a full-stack developer based out of New York City. I went to the University of Pennsylvania and my background is in finance. Where I once had a knack for creating complex financial models, as a developer, I am now building dynamic web applications that are to me, more meaningful, and I couldn't be happier.
+                <br/>When I'm not working on a new app, you can find me discovering new parts of the city, listening to live music or trying to find the best cup of coffee.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <div class="parallax"><img src="img/nyc_background.jpg" alt="Unsplashed background img 1"></div>
     </div>
 
-    <!-- This will be used for skills -->
-    <div class="white">
+    <!-- skills -->
+    <div class="white section scrollspy" id="skills">
       <div class="container">
         <div class="row">
           <div class="col l12 s12">
@@ -119,30 +118,76 @@
             </div>
           </div>
           <div class="row">
-            <img class="col s6 m3 l1 offset-l2 icon" src="img/code_icons/html5.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/css3.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/js.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/jquery.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/nodejs.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/express.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/react.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/angularjs.png">
+            <img class="col s6 m1 offset-m2 l1 offset-l2 icon" src="img/svg/html5-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/css3-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/javascript-original.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/jquery-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/nodejs-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/code_icons/express.png">
+            <img class="col s6 m1 l1 icon" src="img/svg/react-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/angularjs-original.svg">
           </div>
           <div class="row">
-            <img class="col s6 m3 l1 offset-l2 icon" src="img/code_icons/mongodb.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/postgresql.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/ruby.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/rails.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/rspec.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/heroku.png">
-            <img class="col s6 m3 l1 icon" src="img/code_icons/github.png">
+            <img class="col s6 m1 offset-m2 l1 offset-l2 icon" src="img/svg/mongodb-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/postgresql-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/ruby-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/rails-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/code_icons/rspec.png">
+            <img class="col s6 m1 l1 icon" src="img/svg/heroku-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/github-original-wordmark.svg">
+            <img class="col s6 m1 l1 icon" src="img/svg/wordpress-original.svg">
 
           </div>
         </div>
       </div>
 
-    <footer class="page-footer black">
-      <div class="container white-text center">
+      <!-- portfolio -->
+      <div class="grey lighten-3 section scrollspy" id="portfolio">
+        <div class="container">
+          <h5 class="center">My Work</h5>
+          <hr/>
+          <p>Hamburger chuck beef, boudin short loin short ribs spare ribs pork loin. Beef porchetta turkey pork chop strip steak landjaeger. Pork strip steak leberkas pastrami swine chicken drumstick boudin, biltong fatback short ribs bresaola corned beef. Kielbasa ball tip tri-tip bacon alcatra, filet mignon prosciutto pig tongue pork chop capicola frankfurter. Beef pancetta landjaeger capicola, drumstick shank short loin venison. Shoulder sirloin kielbasa meatball pastrami fatback shank jerky picanha tail beef. Cupim chicken capicola pastrami ball tip cow t-bone.</p>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div class="white section scrollspy" id="contact">
+        <div class="container center">
+          <div>
+            <h5>Let's Get In Touch!</h5>
+            <hr/>
+            <p>Feel free to contact me through any of the following:</p>
+          </div>
+          <div>
+            <i class="fa fa-phone fa-3x phone"></i>
+            <p>610-842-8162</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o fa-3x email"></i>
+            <p><a href="mailto:travis.shields@gmail.com">travis.shields@gmail.com</a></p>
+          </div>
+          <div class="row">
+            <a href="https://github.com/tshields86" target="_blank" style="margin-right: 5px;">
+                <i class="fa fa-github-square fa-3x contact"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/trshields" target="_blank" style="margin-right: 5px;">
+                <i class="fa fa-linkedin-square fa-3x contact"></i>
+            </a>
+            <a href="https://twitter.com/tshields86" target="_blank" style="margin-right: 5px;">
+                <i class="fa fa-twitter-square fa-3x contact"></i>
+            </a>
+            <a href="https://angel.co/travis-shields" target="_blank" style="margin-right: 5px;">
+                <i class="fa fa-angellist fa-3x contact"></i>
+            </a>
+            <a href="http://stackoverflow.com/users/6272401/tshields86" target="_blank" style="margin-right: 5px;">
+                <i class="fa fa-stack-overflow fa-3x contact"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <footer class="page-footer black section scrollspy">
+      <!-- <div class="container white-text center">
         <div>
           <h5>Let's Get In Touch!</h5>
           <hr/>
@@ -175,10 +220,10 @@
         </div>
 
 
-      </div>
+      </div> -->
       <div class="footer-copyright">
         <div class="container">
-        Made by <span class="teal-text text-lighten-2">Travis Shields</span>
+        &copy;Copyright 2016 - <span class="deep-orange-text text-accent-3">Travis Shields</span>
         </div>
       </div>
     </footer>

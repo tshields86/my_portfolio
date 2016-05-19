@@ -1,0 +1,28 @@
+
+.parallax-container {
+  min-height: 380px;
+  /*line-height: 0;*/
+  height: auto;
+  /*color: rgba(255,255,255,0.3);*/
+}
+/*
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}*/
+/* for blurring out entire backgrounds*/
+/*.blur {
+  -webkit-filter: blur(1.5px);
+  -moz-filter: blur(1.5px);
+  -o-filter: blur(1.5px);
+  -ms-filter: blur(1.5px);
+  filter: blur(1.5px);
+}*/
+/* for putting a slightly blurry grey background behind text*/
+.blur {
+  background: rgba(70, 70, 70, 0.70)
+}
+
+.svg {
+  height: 100px;
+  widows: 100px;
+}

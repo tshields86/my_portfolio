@@ -1,8 +1,20 @@
 (function($){
   $(function(){
 
+// nav button open and collapse
     $('.button-collapse').sideNav();
 
+// scrolls to the correct section with nav click
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+
+// parallax
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+
+// animations
     var animationIcon = 'animated flip';
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
     $('.icon').on('mouseover', function (){
