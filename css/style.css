@@ -29,3 +29,8 @@ html {
   height: 100px;
   widows: 100px;
 }
+
+.bg {
+  background-image: url(../img/8-bit-rockies-2.png);
+  background-size: cover;
+}

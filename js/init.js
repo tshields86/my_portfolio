@@ -2,7 +2,11 @@
   $(function(){
 
 // nav button open and collapse
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+      menuWidth: 200, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks
+    });
 
 // scrolls to the correct section with nav click
     $(document).ready(function(){
