@@ -19,7 +19,10 @@ html {
 }*/
 /* for putting a slightly blurry grey background behind text*/
 .blur-grey {
-  background: rgba(70, 70, 70, 0.7)
+  background: rgba(70, 70, 70, 0.7);
+  /*padding: 1.5em;*/
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 .blur-black {
   background: rgba(0, 0, 0, 0.85)
@@ -33,4 +36,9 @@ html {
 .bg {
   background-image: url(../img/background/mountains2.jpg);
   background-size: cover;
+}
+
+.bg-head {
+  height: 95vh;
+  /*width: 100%;*/
 }
