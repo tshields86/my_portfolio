@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="icon" type="image/ico" href="img/favicon-96x96.png"/>
     <title>Travis Shields</title>
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,9 +18,9 @@
     <div class="navbar-fixed">
       <nav class="black" role="navigation">
       <!-- <nav class="blur-black" role="navigation"> -->
-        <div class="nav-wrapper container"><a id="logo-container" href="#index-banner" class="brand-logo center">TS</a>
+        <div class="nav-wrapper container"><a id="logo-container" href="#index-banner" class="navbar-brand center"><img class="logo" src="img/logo_ts_w-on-b.jpg"></a>
           <ul class="left hide-on-med-and-down">
-            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#about">About</a></li>
           </ul>
           <ul class="right hide-on-med-and-down">
@@ -28,7 +29,7 @@
           </ul>
           <!-- mobile navbar -->
           <ul id="nav-mobile" class="side-nav blur-grey">
-            <li><a href="#skills" class="waves-effect waves-light btn deep-orange accent-3">My Skills</a></li>
+            <li><a href="#skills" class="waves-effect waves-light btn deep-orange accent-3">Skills</a></li>
             <li><a href="#about" class="waves-effect waves-light btn deep-orange accent-3">About</a></li>
             <li><a href="#portfolio" class="waves-effect waves-light btn deep-orange accent-3">Portfolio</a></li>
             <li><a href="#contact" class="waves-effect waves-light btn deep-orange accent-3">Contact</a></li>
@@ -38,83 +39,23 @@
       </nav>
     </div>
 
-    <!-- Intro with static background -->
-    <!-- top jumbotron -->
-    <!-- #<div class="grey lighten-3 section scrollspy no-pad-bot" id="index-banner"> -->
-    <!-- <div class="bg responsive-img section scrollspy no-pad-bot" id="index-banner">
-        <div class="container">
-          <br><br>
-          <h1 class="header center white-text">Travis Shields</h1>
-          #<h1 class="header center deep-orange-text text-accent-3">Travis Shields</h1>
-          <div class="row">
-            <div class="col l4 offset-l4 m4 offset-m4 s6 offset-s3">
-              <img class="responsive-img circle z-depth-2" src="img/travis_face.jpg">
-            </div>
-          </div>
-          <div class="row center">
-            #<h5 class="header col s12 deep-orange-text text-accent-3">Full-Stack Web Developer</h5>
-            <h5 class="header col s12 white-text light">Full-Stack Web Developer</h5>
-            #<h5 class="header col s12 white-text">Full-Stack Web Developer</h5>
-          </div>
-          <br><br>
-        </div>
-    </div> -->
-
     <!-- Intro with parallax background -->
     <div class="parallax-container valign-wrapper section scrollspy no-pad-bot bg-head" id="index-banner">
         <div class="container">
           <br><br>
           <h1 class="header center white-text">Travis Shields</h1>
-          <!-- #<h1 class="header center deep-orange-text text-accent-3">Travis Shields</h1> -->
           <div class="row center">
             <div class="col l4 offset-l4 m4 offset-m4 s6 offset-s3">
-              <img class="responsive-img circle z-depth-2" src="img/travis_pic.jpg">
+              <img class="responsive-img circle z-depth-2 ts-pic" src="img/travis_pic.jpg">
             </div>
           </div>
           <div class="row center">
-            <!-- <h5 class="header col s12 deep-orange-text text-accent-3">Full-Stack Web Developer</h5> -->
             <h5 class="header col s12 white-text light">Full-Stack Web Developer</h5>
-            <!-- <h5 class="header col s12 white-text">Full-Stack Web Developer</h5> -->
           </div>
           <br><br>
         </div>
         <div class="parallax"><img src="img/background/open_road_8.jpg"></div>
-        <!-- <div class="parallax"><img src="img/background/mountains.jpg"></div> -->
     </div>
-
-
-    <!-- highlight section -->
-    <!-- <div class="container">
-      <div class="section">
-          #first
-        <div class="row">
-          <div class="col s12 m4 l4">
-            <div class="icon-block">
-              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">group</i></h2>
-              <h5 class="center">highlight 1</h5>
-              <p class="light">Tail turkey ball tip sirloin, alcatra meatloaf picanha drumstick beef shank cow shankle. Spare ribs chicken short ribs porchetta shoulder. Leberkas shank shoulder, cow sirloin ham ham hock drumstick beef ribs pork boudin.</p>
-            </div>
-          </div>
-            #second
-          <div class="col s12 m4 l4">
-            <div class="icon-block">
-              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">flash_on</i></h2>
-              <h5 class="center">highlight 2</h5>
-              <p class="light">Bacon ipsum dolor amet sirloin picanha shoulder, spare ribs ground round bacon capicola doner. Turducken kielbasa ham hock frankfurter, ball tip t-bone beef tongue salami drumstick chicken pork chop boudin chuck.</p>
-            </div>
-          </div>
-            #third
-          <div class="col s12 m4 l4">
-            <div class="icon-block">
-              <h2 class="center deep-orange-text text-accent-3"><i class="material-icons">settings</i></h2>
-              <h5 class="center">highlight 3</h5>
-              <p class="light">Salami jerky beef ribs capicola drumstick pork chop pastrami swine shankle biltong fatback. Filet mignon pig beef ribs cow. Doner swine pancetta cupim strip steak venison bacon.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br><br>
-    </div> -->
 
     <!-- skills -->
     <div class="white section scrollspy" id="skills">
@@ -135,7 +76,7 @@
           <div class="col s12 m6 l3">
             <i class="fa fa-database fa-4x deep-orange-text text-accent-3"></i>
             <h5>Secure Storage</h5>
-            <p>I employ user authentication and maintain MongoDB, PostgreSLQ, and MySLQ databases.</p>
+            <p>I employ user authentication and maintain MongoDB, PostgreSQL, and MySQL databases.</p>
           </div>
           <div class="col s12 m6 l3">
             <i class="fa fa-terminal fa-4x deep-orange-text text-accent-3"></i>
@@ -168,14 +109,13 @@
 
     <!-- about -->
     <div class="parallax-container valign-wrapper section scrollspy" id="about">
-      <!-- <div class="section no-pad-bot"> -->
         <div class="container white-text blur-grey">
           <div class="row">
             <div class="col l12 s12 valign">
               <h5 class="center">Hello World!</h5>
               <hr/>
-              <p class="white-text">My name is Travis Shields. I am a full-stack developer based out of New York City. I went to the University of Pennsylvania and my background is in finance. Where I once had a knack for creating complex financial models, as a developer, I am now building fully functional and dynamic web applications and it is so satisfying putting all the pieces together.
-                <br/>When I'm not working on a new app, you can find me discovering new parts of the city, listening to live music or trying to find the best cup of coffee. <i class="fa fa-coffee" aria-hidden="true"></i>
+              <p class="white-text">My name is Travis Shields. I am a full-stack developer based out of New York City. I went to the University of Pennsylvania and my background is in finance. Where I once had a knack for creating complex financial models, as a developer, I am now building fully functional and dynamic web applications and it is really satisfying being able to put all the pieces together.
+                <br/>When I'm not working on a new app, you can catch me discovering new parts of the city, listening to live music or trying to find the best cup of coffee. <i class="fa fa-coffee" aria-hidden="true"></i>
               </p>
             </div>
           </div>
@@ -225,6 +165,21 @@
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/projects/MeanCoffeeBeanNyc.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator black-text">MEAN Coffee Bean NYC<i class="material-icons black-text right">more_vert</i></span>
+                <p><a href="https://github.com/tshields86/mean_coffee" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title black-text">MEAN Coffee Bean NYC<i class="material-icons black-text right">close</i></span>
+                <p>Web application for reviewing coffee shops in the NYC area build with the MEAN stack. Incorporates a REST interface with Express.js on top of Node.js and uses that to perform CRUD operations on a MongoDB database via an AngularJS frontend. In addition to technologies that make up MEAN, other libraries include Mongoose.js for adding structure to MongoDB, Angular ui-router for client-side routing, and Twitter Bootstrap for styling.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/projects/YodaSings.png">
               </div>
               <div class="card-content">
@@ -237,7 +192,9 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l6">
+        </div>
+        <div class="row">
+          <div class="col s12 m6 offset-m3 l6 offset-l3">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="img/projects/TravisLand.png">
@@ -262,7 +219,6 @@
         <div>
           <h5>Let's Get In Touch!</h5>
           <hr/>
-          <!-- <p>Feel free to contact me through any of the following:</p> -->
           <p>Look over my resume, give me a call, or send an email.</p>
         </div>
         <div class="row">
@@ -306,7 +262,6 @@
     <footer class="black section scrollspy">
     <!-- <footer class="blur-black section scrollspy"> -->
       <div class="footer-copyright">
-        <!-- <div class="container"> -->
         <div class="container white-text">
         Copyright &copy; 2016 - <span class="deep-orange-text text-accent-3">Travis Shields</span>
         </div>

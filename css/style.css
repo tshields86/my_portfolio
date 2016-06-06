@@ -38,7 +38,29 @@ html {
   background-size: cover;
 }
 
+.ts-pic {
+  /*border-color: rgba(255, 255, 255, 0.5);*/
+  border-color: rgba(70, 70, 70, 0.7);
+  border-width: .4em;
+  border-style: solid;
+  border-radius: 100%;
+}
+
 .bg-head {
   height: 95vh;
   /*width: 100%;*/
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+/* centering and resizing the svg logo in the nav bar */
+.navbar-brand>img {
+  height: 100%;
+  padding: 2.5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
 }
