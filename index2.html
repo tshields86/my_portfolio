@@ -8,6 +8,7 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"> -->
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/animate.min.css" type="text/css"/>
@@ -16,6 +17,7 @@
     <!-- fullscreen nav bar -->
     <div class="navbar-fixed">
       <nav class="black" role="navigation">
+      <!-- <nav class="blur-black" role="navigation"> -->
         <div class="nav-wrapper container"><a id="logo-container" href="#index-banner" class="navbar-brand center"><img class="logo" src="img/logo_ts_w-on-b.jpg"></a>
           <ul class="left hide-on-med-and-down">
             <li><a href="#skills">Skills</a></li>
@@ -26,11 +28,11 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
           <!-- mobile navbar -->
-          <ul id="nav-mobile" class="side-nav blur-grey-2">
-            <li><a href="#skills" class="waves-effect waves-light btn grey lighten-2 black-text">Skills</a></li>
-            <li><a href="#about" class="waves-effect waves-light btn grey lighten-2 black-text">About</a></li>
-            <li><a href="#portfolio" class="waves-effect waves-light btn grey lighten-2 black-text">Portfolio</a></li>
-            <li><a href="#contact" class="waves-effect waves-light btn grey lighten-2 black-text">Contact</a></li>
+          <ul id="nav-mobile" class="side-nav blur-grey">
+            <li><a href="#skills" class="waves-effect waves-light btn deep-orange accent-3">Skills</a></li>
+            <li><a href="#about" class="waves-effect waves-light btn deep-orange accent-3">About</a></li>
+            <li><a href="#portfolio" class="waves-effect waves-light btn deep-orange accent-3">Portfolio</a></li>
+            <li><a href="#contact" class="waves-effect waves-light btn deep-orange accent-3">Contact</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
@@ -39,18 +41,20 @@
 
     <!-- Intro with parallax background -->
     <div class="parallax-container valign-wrapper section scrollspy no-pad-bot bg-head" id="index-banner">
-        <div class="container center">
-          <h1 class="header white-text">Travis Shields</h1>
-          <div class="row">
+        <div class="container">
+          <br><br>
+          <h1 class="header center white-text">Travis Shields</h1>
+          <div class="row center">
             <div class="col l4 offset-l4 m4 offset-m4 s6 offset-s3">
               <img class="responsive-img circle z-depth-2 ts-pic" src="img/travis_pic.jpg">
             </div>
           </div>
-          <div class="row">
+          <div class="row center">
             <h5 class="header col s12 white-text light">Full-Stack Web Developer</h5>
           </div>
+          <br><br>
         </div>
-        <div class="parallax"><img class="responsive-img" src="img/background/comp_pic.jpeg"></div>
+        <div class="parallax"><img src="img/background/open_road_8.jpg"></div>
     </div>
 
     <!-- skills -->
@@ -60,22 +64,22 @@
         <hr/><br/>
         <div class="row">
           <div class="col s12 m6 l3">
-            <i class="fa fa-cubes fa-4x light-blue-text text-darken-4"></i>
+            <i class="fa fa-cubes fa-4x deep-orange-text text-accent-3"></i>
             <h5>Powerful Frameworks</h5>
             <p>I work with agile frameworks such as Node, Express, React, Angular, and Ruby on Rails.</p>
           </div>
           <div class="col s12 m6 l3">
-            <i class="fa fa-tachometer fa-4x light-blue-text text-darken-4"></i>
+            <i class="fa fa-tachometer fa-4x deep-orange-text text-accent-3"></i>
             <h5>Ready to Go</h5>
             <p>I use Git/Github for version control and deploy with AWS and Heroku.</p>
           </div>
           <div class="col s12 m6 l3">
-            <i class="fa fa-database fa-4x light-blue-text text-darken-4"></i>
+            <i class="fa fa-database fa-4x deep-orange-text text-accent-3"></i>
             <h5>Secure Storage</h5>
             <p>I employ user authentication and maintain MongoDB, PostgreSQL, and MySQL databases.</p>
           </div>
           <div class="col s12 m6 l3">
-            <i class="fa fa-terminal fa-4x light-blue-text text-darken-4"></i>
+            <i class="fa fa-terminal fa-4x deep-orange-text text-accent-3"></i>
             <h5>Up to Date</h5>
             <p>I keep on my toes with cutting-edge languages such as HTML5, CSS3, ES6, and Ruby.</p>
           </div>
@@ -104,7 +108,7 @@
     </div>
 
     <!-- about -->
-    <div class="parallax-container valign-wrapper about section scrollspy" id="about">
+    <div class="parallax-container valign-wrapper section scrollspy" id="about">
         <div class="container white-text blur-grey">
           <div class="row">
             <div class="col l12 s12 valign">
@@ -121,7 +125,7 @@
     </div>
 
     <!-- portfolio -->
-    <div class="grey lighten-2 section scrollspy" id="portfolio">
+    <div class="grey lighten-3 section scrollspy" id="portfolio">
       <div class="container">
         <h5 class="center">My Work</h5>
         <hr/><br/>
@@ -133,7 +137,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator black-text">Fox Deck<i class="material-icons black-text right">more_vert</i></span>
-                <p><a href="https://github.com/ryhoth/project-four-frontend" target="_blank" class="light-blue-text text-darken-4">GitHub</a></p>
+                <p><a href="https://github.com/ryhoth/project-four-frontend" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title black-text">Fox Deck<i class="material-icons black-text right">close</i></span>
@@ -148,7 +152,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator black-text">Mapado NYC<i class="material-icons black-text right">more_vert</i></span>
-                <p><a href="https://github.com/tshields86/project-three-frontend" target="_blank" class="light-blue-text text-darken-4">GitHub</a></p>
+                <p><a href="https://github.com/tshields86/project-three-frontend" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title black-text">Mapado NYC<i class="material-icons black-text right">close</i></span>
@@ -164,11 +168,11 @@
                 <img class="activator" src="img/projects/MeanCoffeeBeanNyc.png">
               </div>
               <div class="card-content">
-                <span class="card-title activator black-text">MEAN Coffee Beans<i class="material-icons black-text right">more_vert</i></span>
-                <p><a href="https://github.com/tshields86/mean_coffee" target="_blank" class="light-blue-text text-darken-4">GitHub</a></p>
+                <span class="card-title activator black-text">MEAN Coffee Beans NYC<i class="material-icons black-text right">more_vert</i></span>
+                <p><a href="https://github.com/tshields86/mean_coffee" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
               </div>
               <div class="card-reveal">
-                <span class="card-title black-text">MEAN Coffee Beans<i class="material-icons black-text right">close</i></span>
+                <span class="card-title black-text">MEAN Coffee Beans NYC<i class="material-icons black-text right">close</i></span>
                 <p>Web application for reviewing coffee shops in the NYC area build with the MEAN stack. Incorporates a REST interface with Express.js on top of Node.js and uses that to perform CRUD operations on a MongoDB database via an AngularJS frontend. In addition to technologies that make up MEAN, other libraries include Mongoose.js for adding structure to MongoDB, Angular ui-router for client-side routing, and Twitter Bootstrap for styling.</p>
               </div>
             </div>
@@ -180,7 +184,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator black-text">Yoda Sings<i class="material-icons black-text right">more_vert</i></span>
-                <p><a href="https://github.com/tshields86/project-two" target="_blank" class="light-blue-text text-darken-4">GitHub</a></p>
+                <p><a href="https://github.com/tshields86/project-two" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title black-text">Yoda Sings<i class="material-icons black-text right">close</i></span>
@@ -197,7 +201,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title activator black-text">TravisLand<i class="material-icons black-text right">more_vert</i></span>
-                <p><a href="https://github.com/tshields86/project-one" target="_blank" class="light-blue-text text-darken-4">GitHub</a></p>
+                <p><a href="https://github.com/tshields86/project-one" target="_blank" class="deep-orange-text text-accent-3">GitHub</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title black-text">TravisLand<i class="material-icons black-text right">close</i></span>
@@ -220,7 +224,7 @@
         <div class="row">
           <div class="col s12 m4 l4">
             <i class="fa fa-file-text-o fa-3x resume"></i>
-            <p><a href="img/Travis_Shields_Résumé.pdf" download class="light-blue-text text-darken-4">Resume</a></p>
+            <p><a href="img/Travis_Shields_Résumé.pdf" download class="deep-orange-text text-accent-3">Resume</a></p>
           </div>
           <div class="col s12 m4 l4">
             <i class="fa fa-phone fa-3x phone"></i>
@@ -228,7 +232,7 @@
           </div>
           <div class="col s12 m4 l4">
             <i class="fa fa-envelope-o fa-3x email"></i>
-            <p><a href="mailto:travis.shields@gmail.com" class="light-blue-text text-darken-4">travis.shields@gmail.com</a></p>
+            <p><a href="mailto:travis.shields@gmail.com" class="deep-orange-text text-accent-3">travis.shields@gmail.com</a></p>
           </div>
         </div>
         <div>
@@ -236,28 +240,30 @@
         </div>
         <div class="row">
           <a href="https://github.com/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-github-square fa-3x contact light-blue-text text-darken-4"></i>
+              <i class="fa fa-github-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://www.linkedin.com/in/trshields" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-linkedin-square fa-3x contact light-blue-text text-darken-4"></i>
+              <i class="fa fa-linkedin-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://twitter.com/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-twitter-square fa-3x contact light-blue-text text-darken-4"></i>
+              <i class="fa fa-twitter-square fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="https://angel.co/travis-shields" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-angellist fa-3x contact light-blue-text text-darken-4"></i>
+              <i class="fa fa-angellist fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
           <a href="http://stackoverflow.com/users/6272401/tshields86" target="_blank" style="margin-right: 5px;">
-              <i class="fa fa-stack-overflow fa-3x contact light-blue-text text-darken-4"></i>
+              <i class="fa fa-stack-overflow fa-3x contact deep-orange-text text-accent-3"></i>
           </a>
         </div>
       </div>
     </div>
 
+    <!-- <footer class="page-footer black section scrollspy"> -->
     <footer class="black section scrollspy">
+    <!-- <footer class="blur-black section scrollspy"> -->
       <div class="footer-copyright">
         <div class="container white-text">
-        Copyright &copy; 2016 - <b>Travis Shields</b>
+        Copyright &copy; 2016 - <span class="deep-orange-text text-accent-3">Travis Shields</span>
         </div>
       </div>
     </footer>
