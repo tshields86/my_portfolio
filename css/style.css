@@ -1,3 +1,8 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 .about {
   min-height: 400px;
   height: auto;
@@ -35,9 +40,18 @@ html {
 
 .svg {
   height: 100px;
-  widows: 100px;
+  width: 100px;
 }
-
+/*sets the main background to be fullscreen minus the height of the navigation bar*/
+.bg-head {
+  height: calc(100vh - 56px)
+}
+/*adjusts the height for smaller screens*/
+@media only screen and (min-width: 601px) {
+  .bg-head {
+    height: calc(100vh - 64px)
+  }
+}
 .bg {
   background-image: url(../img/background/mountains2.jpg);
   background-size: cover;
@@ -55,10 +69,10 @@ html {
   border-radius: 100%;
 }
 
-.bg-head {
-  height: 94vh;
+/*.bg-head {*/
+  /*height: 94vh;*/
   /*width: 100%;*/
-}
+/*}*/
 
 .navbar-brand {
   padding: 0px;
