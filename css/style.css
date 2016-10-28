@@ -87,3 +87,41 @@ html {
   margin: auto;
   width: auto;
 }
+
+
+/* Flex */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-child {
+  flex-basis: 12%;
+  margin: 10px;
+}
+.icon {
+  width: 9vw;
+  height: 9vw;
+  /*width: 100px;
+  height: 100px;*/
+  /*padding: 5px;*/
+}
+
+@media (max-width: 975px) {
+  .icon {
+    width: 12vw;
+    height: 12vw;
+  }
+  .flex-child {
+    flex-basis: 15%;
+  }
+}
+@media (max-width: 444px) {
+  .icon {
+    width: 20vw;
+    height: 20vw;
+  }
+  .flex-child {
+    flex-basis: 25%;
+  }
+}
