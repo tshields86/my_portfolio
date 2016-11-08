@@ -88,20 +88,39 @@ html {
   width: auto;
 }
 
+/*.link-target {
+  position: absolute;
+  bottom: 64px;
+}*/
+
+/* Switches to a tag in mobile */
+.telephone-mobile {
+  display: none;
+}
+@media only screen and (max-width: 601px) {
+  .telephone-desk {
+    display: none;
+  }
+  .telephone-mobile {
+    display: block;
+  }
+}
 
 /* Flex */
 .flex-container {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 .flex-child {
   flex-basis: 12%;
-  margin: 10px;
+  margin: 5px 15px;;
 }
 .icon {
-  width: 9vw;
-  height: 9vw;
+  width: 4.5vw;
+  height: 4.5vw;
   /*width: 100px;
   height: 100px;*/
   /*padding: 5px;*/
